@@ -1,0 +1,61 @@
+body {
+    background: url("../images/scene.png");
+}
+
+.enigme-btn {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    content: " ";
+    border: none;
+    background: none;
+    outline: none !important;
+}
+
+.enigme-btn:hover {
+    background: radial-gradient(#ff300088, rgba(255, 255, 255, 0) 65%);
+}
+
+.enigme-btn-1 {
+    left: 32%;
+    top: 70%;
+}
+
+.enigme-btn-2 {
+    left: 57%;
+    top: 38%;
+}
+
+.enigme-btn-3 {
+    left: 12%;
+    top: 82%;
+}
+
+.enigme-btn-4 {
+    left: 90%;
+    top: 20%;
+}
+
+.enigme-btn-5 {
+    left: 22%;
+    top: 35%;}
+
+.enigme-btn-6 {
+    left: 50%;
+    top: 50%;
+}
+.enigme{
+    -webkit-background-size: contain !important;
+    background-size: contain !important;
+    background: rgba(255, 255, 255, 0) url("../images/dossierEnigme.png") no-repeat !important;
+    width : 982px;
+    height : 681px;
+}
+.countdown {
+    font-family: "Verdana", sans-serif;
+    margin: 45px;
+    color: white;
+    font-size: 36pt;
+    font-weight: bold;
+}
