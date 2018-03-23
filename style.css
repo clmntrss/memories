@@ -2,11 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .main-home {
     display: flex;
+    border: 3px solid red;
+    background: url("images/background.jpg");
+    background-size: cover;
     height: 100vh;
     background-color: #303030;
     justify-content: center;
@@ -16,39 +19,85 @@
 
 .main-title {
     text-transform: uppercase;
-    color: #d4d4d4;
-    font-size: 52pt;
-    font-weight: 600;
+    color: #d3d3d3;
+    font-size: 100pt;
+    font-weight: 700;
 }
 
 .main-subtitle {
-    color: #635944;
-    font-size: 32pt;
-    font-weight: 400;
+    color: #665c47;
+    font-size: 50pt;
+    font-weight: 500;
 }
 
 .main-home p {
-    color: #f6f6f6;
+    font-weight: 400;
+    color: #fefefe;
+    font-size: 25pt;
 }
 
 .main-rule {
+    border: 3px solid white;
     height: 100vh;
     background-color: #303030;
 }
 
 .main-rule h2 {
+    margin-top: 100px;
     text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #fefefe;
+    font-size: 30pt;
+    font-weight: 400;
 }
 
 .flex-parent {
     display: flex;
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
 }
-
-
 
 .flex-child {
     display: flex;
+    width: 20%;
     flex-direction: column;
+}
+
+.flex-child img {
+    width: 100%;
+    height: auto;
+}
+
+.flex-child p {
+    font-size: 20pt;
+    color: #ffffff;
+}
+.centered-rule {
+    text-align: center;
+}
+
+.button {
+    margin-top: 60px;
+    border: 0;
+    background: transparent;
+    box-sizing: border-box;
+    width: 0;
+    height: 74px;
+    border-color: transparent transparent transparent #ffffff;
+    transition: 100ms all ease;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 37px 0 37px 60px;
+}
+
+.centered-rule p {
+    margin-top: 10px;
+    color: #fefefe;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 30pt;
 }
