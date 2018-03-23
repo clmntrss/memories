@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.main-home {
+    display: flex;
+    height: 100vh;
+    background-color: #303030;
+    justify-content: center;
+    align-items : center;
+    flex-direction: column;
+}
+
+.main-title {
+    text-transform: uppercase;
+    color: #d4d4d4;
+    font-size: 52pt;
+    font-weight: 600;
+}
+
+.main-subtitle {
+    color: #635944;
+    font-size: 32pt;
+    font-weight: 400;
+}
+
+.main-home p {
+    color: #f6f6f6;
+}
+
+.main-rule {
+    height: 100vh;
+    background-color: #303030;
+}
+
+.main-rule h2 {
+    text-align: center;
+}
+
+.flex-parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+.flex-child {
+    display: flex;
+    flex-direction: column;
+}
