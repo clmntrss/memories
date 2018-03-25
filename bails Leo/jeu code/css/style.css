@@ -54,12 +54,25 @@ body {
     width: 982px;
     height: 681px;
 }
-.enigme-content{
-    width : 37%;
+
+.enigme-content {
+    width: 37%;
     margin-left: 58%;
-    margin-top: 12%;
+    margin-top: 20%;
     text-align: justify;
 }
+
+.form-reponse {
+    text-align: center;
+}
+
+.input-reponse {
+    width: 50px;
+    border: 2px solid #bca186 !important;
+    outline: none !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
 .countdown {
     font-family: "Verdana", sans-serif;
     margin: 45px;

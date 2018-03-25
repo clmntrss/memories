@@ -1,8 +1,4 @@
 $('document').ready(function () {
-    $('#obj-1').on('click', function (e) {
-        //des bails
-    });
-
 
     let minutes = 30;
     let seconds = 0;
