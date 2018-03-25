@@ -85,14 +85,20 @@ label {
     -o-user-select: none;
     user-select: none;
 }
-.pic-enigme{
+
+.pic-enigme {
     transform: rotate(-12deg);
     padding: 15px;
-    background-color: white;
+    background-color: rgb(255, 250, 239);
 }
-.pic-enigme-2{
 
+.pic-enigme-2 {
+    width: 35%;
+    margin-top: 25px;
+    margin-left: 20px;
+    float: left;
 }
+
 .countdown {
     font-family: "Verdana", sans-serif;
     margin: 45px;
