@@ -2,7 +2,7 @@ body {
     background: url("../images/scene.png");
 }
 
-.enigme-btn {
+.enigme-btn, .digicode-btn {
     position: absolute;
     width: 150px;
     height: 150px;
@@ -92,12 +92,12 @@ body {
     border: 2px solid #bca186 !important;
     outline: none !important;
     background-color: rgba(0, 0, 0, 0) !important;
-    transition : all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 .answer:hover {
     color: #000;
-    transition : all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 label {
@@ -106,10 +106,8 @@ label {
 
 .disable {
     -webkit-user-select: none;
-    -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    -o-user-select: none;
     user-select: none;
 }
 
