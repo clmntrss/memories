@@ -12,26 +12,28 @@
 </head>
 
 <body>
-<audio autoplay loop src="audio/ambiance.mp3"></audio>
+<!--<audio autoplay loop src="audio/ambiance.mp3"></audio>-->
 <div id="countdown" class="countdown disable"></div>
 <!--Enigme n°1-->
-<a id="obj-1" class="enigme-btn enigme-btn-1" data-fancybox data-src="#enigme-1" href="javascript:"></a>
+<a id="obj-1" class="enigme-btn enigme-btn-1" data-fancybox data-src="#enigme-1" href="enigme-1"></a>
 <div style="display: none;" id="enigme-1" class="enigme">
     <div class="enigme-content enigme-content-1">
-        <p class="disable"><b>« Quand l'ainé avait 18 ans, son petit frère en avait le tiers. Aujourd'hui, l'ainé est considéré comme
+        <p class="disable"><b>« Quand l'ainé avait 18 ans, son petit frère en avait le tiers. Aujourd'hui, l'ainé est
+            considéré comme
             majeur
             des
             deux côtés de l'Atlantique. Quel âge a son petit frère ? »</b></p><br/>
         <form id="form-reponse-1" class="form-reponse">
             <label for="input-reponse-1">Réponse : </label>
             <input type="text" id="input-reponse-1" class="input-reponse-1 input-reponse" maxlength="2">
-            <button type="submit" class="answer">Répondre</button>
+            <button type="submit" id="btn-answer-1" class="answer">Valider</button>
         </form>
+        <div id="info-reponse-1"></div>
     </div>
 </div>
 
 <!--Enigme n°2-->
-<a id="obj-2" class="enigme-btn enigme-btn-2" data-fancybox data-src="#enigme-2" href="javascript:"></a>
+<a id="obj-2" class="enigme-btn enigme-btn-2" data-fancybox data-src="#enigme-2" href="enigme-2"></a>
 <div style="display: none;" id="enigme-2" class="enigme">
     <div class="enigme-pic">
         <img src="images/enigme .jpg" class="pic-enigme-2 pic-enigme">
@@ -43,7 +45,7 @@
 </div>
 
 <!--Enigme n°3-->
-<a id="obj-3" class="enigme-btn enigme-btn-3" data-fancybox data-src="#enigme-3" href="javascript:"></a>
+<a id="obj-3" class="enigme-btn enigme-btn-3" data-fancybox data-src="#enigme-3" href="enigme-3"></a>
 <div style="display: none;" id="enigme-3" class="enigme">
     <div class="enigme-content enigme-content-1">
         <h2>Énigme n°3</h2>
@@ -52,7 +54,7 @@
 </div>
 
 <!--Enigme n°4-->
-<a id="obj-4" class="enigme-disabled enigme-btn-4" data-fancybox data-src="#enigme-4" href="javascript:"></a>
+<a id="obj-4" class="enigme-btn enigme-btn-4" data-fancybox data-src="#enigme-4" href="enigme-4"></a>
 <div style="display: none;" id="enigme-4" class="enigme">
     <div class="enigme-content enigme-content-1">
         <h2>Énigme n°4</h2>
@@ -72,6 +74,15 @@
 <!--Enigme n°6-->
 <a id="obj-6" class="enigme-disabled enigme-btn-6" data-fancybox data-src="#enigme-6" href="javascript:"></a>
 <div style="display: none;" id="enigme-6" class="enigme">
+    <div class="enigme-content enigme-content-1">
+        <h2>Énigme n°6</h2>
+        <p>Bails de l'énigme.</p>
+    </div>
+</div>
+
+<!--Digicode-->
+<a id="digicode-btn" class="digicode-btn" data-fancybox data-src="#digicode-content" href="javascript:"></a>
+<div style="display: none;" id="digicode-content" class="digicode-content">
     <div class="enigme-content enigme-content-1">
         <h2>Énigme n°6</h2>
         <p>Bails de l'énigme.</p>

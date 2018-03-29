@@ -2,7 +2,7 @@ body {
     background: url("../images/scene.png");
 }
 
-.enigme-btn {
+.enigme-btn, .digicode-btn {
     position: absolute;
     width: 150px;
     height: 150px;
@@ -13,8 +13,8 @@ body {
     outline: none !important;
 }
 
-.enigme-btn:hover {
-    background: radial-gradient(rgba(255, 3, 0, 0.53), rgba(255, 255, 255, 0) 65%);
+.enigme-btn:hover, .digicode-btn:hover {
+    background: radial-gradient(#ff300088, rgba(255, 255, 255, 0) 65%);
 }
 
 .enigme-disabled {
@@ -62,6 +62,19 @@ body {
     top: 50%;
 }
 
+.digicode-btn {
+    left: 29%;
+    top: 30%;
+}
+
+.digicode-content {
+    -webkit-background-size: contain !important;
+    background-size: contain !important;
+    background: rgba(255, 255, 255, 0) url("../images/digicode.png") no-repeat !important;
+    width: 982px;
+    height: 681px;
+}
+
 .enigme {
     -webkit-background-size: contain !important;
     background-size: contain !important;
@@ -94,12 +107,12 @@ body {
     border: 2px solid #bca186 !important;
     outline: none !important;
     background-color: rgba(0, 0, 0, 0) !important;
-    transition : all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 .answer:hover {
     color: #000;
-    transition : all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 label {
@@ -108,10 +121,8 @@ label {
 
 .disable {
     -webkit-user-select: none;
-    -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    -o-user-select: none;
     user-select: none;
 }
 
