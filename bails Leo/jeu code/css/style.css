@@ -2,7 +2,7 @@ body {
     background: url("../images/scene.png");
 }
 
-.enigme-btn, .digicode-btn {
+.enigme-btn {
     position: absolute;
     width: 150px;
     height: 150px;
@@ -86,6 +86,20 @@ body {
     background-color: rgba(0, 0, 0, 0) !important;
 }
 
+.answer {
+    margin-bottom: 10px;
+    color: #000;
+    border: 2px solid #bca186 !important;
+    outline: none !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+    transition : all 200ms ease-in-out;
+}
+
+.answer:hover {
+    color: #000;
+    transition : all 200ms ease-in-out;
+}
+
 label {
     display: inline-block;
 }
@@ -117,6 +131,8 @@ label {
     margin: 45px;
     color: white;
     font-size: 36pt;
+    position: absolute;
+    z-index: 9995;
     font-weight: bold;
 }
 

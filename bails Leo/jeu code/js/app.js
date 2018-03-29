@@ -1,15 +1,15 @@
 $('document').ready(function () {
 
-    let minutes = 30;
-    let seconds = 0;
-    let timeLeft = minutes * 60 + seconds;
-    let minutesLeft = minutes;
+    var minutes = 30;
+    var seconds = 0;
+    var timeLeft = minutes * 60 + seconds;
+    var minutesLeft = minutes;
 
     setInterval(function () {
-        let secondsLeft = timeLeft % 60;
+        var secondsLeft = timeLeft % 60;
         $('#countdown').html(("0" + Math.floor(minutesLeft)).slice(-2) + ":" + ("0" + Math.floor(secondsLeft)).slice(-2));
         if (timeLeft <= 300) {
-            $('#countdown').css('color', '#ff0024');
+            $('#countdown').css('color', '#ff0300');
         }
         if (secondsLeft === 0) minutesLeft--;
         timeLeft--;
