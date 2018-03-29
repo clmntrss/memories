@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
+aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink"
+width="128" height="128">
+  <title>Street View</title>
+  <desc>A solid styled icon from Orion Icon Library.</desc>
+  <circle data-name="layer2"
+  cx="32" cy="8" r="6" fill="#7b7b7b"></circle>
+  <path data-name="layer2" d="M42 18H22a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h4v15a3 3 0 0 0 3 3h6a3 3 0 0 0 3-3V34h4a2 2 0 0 0 2-2V20a2 2 0 0 0-2-2z"
+  fill="#7b7b7b"></path>
+  <path data-name="layer1" d="M42 46.5V49a7 7 0 0 1-7 7h-6a7 7 0 0 1-7-7v-2.5C11.5 47.7 4 50.6 4 54s12.5 8 28 8 28-3.6 28-8-7.5-6.3-18-7.5z"
+  fill="#7b7b7b"></path>
+</svg>

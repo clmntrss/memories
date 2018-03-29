@@ -17,6 +17,21 @@ body {
     background: radial-gradient(rgba(255, 3, 0, 0.53), rgba(255, 255, 255, 0) 65%);
 }
 
+.enigme-disabled {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    content: " ";
+    border: none;
+    background: none;
+    outline: none !important;
+}
+
+.enigme-disabled:hover {
+    background: radial-gradient(rgba(75, 80, 86, 0.98), rgba(255, 255, 255, 0) 65%);
+}
+
 .enigme-btn-1 {
     left: 32%;
     top: 70%;

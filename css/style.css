@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1.2;
+}
+
+body {
+    background-color: #0a0a0a;
+    transition : all 1000ms ease-in-out;
+    scroll-behavior: smooth;
+}
+
+h2 {
+    margin: 0;
+}
+
+/* Style HomePage */
+
+.main-home {
+    display: flex;
+    background: url("../images/background.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-color: #303030;
+    justify-content: center;
+    align-items : center;
+    flex-direction: column;
+}
+
+.main-title {
+    text-transform: uppercase;
+    color: #d3d3d3;
+    font-size: 100pt;
+    font-weight: 700;
+}
+
+.main-subtitle {
+    color: #665c47;
+    font-size: 50pt;
+    font-weight: 500;
+}
+
+.main-home p {
+    font-weight: 400;
+    color: #fefefe;
+    font-size: 25pt;
+}
+
+.main-rule {
+    height: 100vh;
+    background-color: #303030;
+}
+
+.main-rule h2 {
+    padding-top: 40px;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: #fefefe;
+    font-size: 25pt;
+    font-weight: 400;
+}
+
+.flex-parent {
+    display: flex;
+    padding-top: 80px;
+    margin-left: 15%;
+    margin-right: 15%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex-child {
+    text-align: center;
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+}
+
+.flex-child img {
+    width: 100%;
+    height: auto;
+}
+
+.flex-child p {
+    font-size: 20pt;
+    color: #ffffff;
+}
+.centered-rule {
+    text-align: center;
+}
+
+.button {
+    outline: none;
+    margin-top: 60px;
+    border: 0;
+    background: transparent;
+    box-sizing: border-box;
+    width: 0;
+    height: 74px;
+    border-color: transparent transparent transparent #ffffff;
+    transition: 300ms all ease;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 37px 0 37px 60px;
+}
+
+.button:hover {
+    transition: 300ms all ease;
+    border-color: transparent transparent transparent #665c47;
+}
+
+.centered-rule p {
+    margin-top: 10px;
+    color: #fefefe;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 30pt;
+}
+
+.chevron::before {
+    border-style: solid;
+    border-width: 0.25em 0.25em 0 0;
+    content: '';
+    display: inline-block;
+    height: 0.45em;
+    left: 0.15em;
+    position: relative;
+    top: 0.15em;
+    transform: rotate(-45deg);
+    vertical-align: top;
+    width: 0.45em;
+}
+
+
+.chevron.bottom:before {
+    top: 0;
+    transform: rotate(135deg);
+}
+
+
+/* Style Jeu */
+
+.enigme-btn {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    content: " ";
+    border: none;
+    background: none;
+    outline: none !important;
+}
+
+.enigme-btn:hover {
+    background: radial-gradient(rgba(255, 3, 0, 0.53), rgba(255, 255, 255, 0) 65%);
+}
+
+.enigme-disabled {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    content: " ";
+    border: none;
+    background: none;
+    outline: none !important;
+}
+
+.enigme-disabled:hover {
+    background: radial-gradient(rgba(75, 80, 86, 0.98), rgba(255, 255, 255, 0) 65%);
+}
+
+.enigme-btn-1 {
+    left: 32%;
+    top: 70%;
+}
+
+.enigme-btn-2 {
+    left: 57%;
+    top: 38%;
+}
+
+.enigme-btn-3 {
+    left: 12%;
+    top: 82%;
+}
+
+.enigme-btn-4 {
+    left: 90%;
+    top: 20%;
+}
+
+.enigme-btn-5 {
+    left: 22%;
+    top: 35%;
+}
+
+.enigme-btn-6 {
+    left: 50%;
+    top: 50%;
+}
+
+.enigme {
+    -webkit-background-size: contain !important;
+    background-size: contain !important;
+    background: rgba(255, 255, 255, 0) url("../images/dossierEnigme.png") no-repeat !important;
+    width: 982px;
+    height: 681px;
+}
+
+.enigme-content {
+    width: 37%;
+    margin-left: 58%;
+    margin-top: 20%;
+    text-align: justify;
+}
+
+.form-reponse {
+    text-align: center;
+}
+
+.input-reponse {
+    width: 50px;
+    border: 2px solid #bca186 !important;
+    outline: none !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.answer {
+    margin-bottom: 10px;
+    color: #000;
+    border: 2px solid #bca186 !important;
+    outline: none !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+    transition : all 200ms ease-in-out;
+}
+
+.answer:hover {
+    color: #000;
+    transition : all 200ms ease-in-out;
+}
+
+label {
+    display: inline-block;
+}
+
+.disable {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.pic-enigme {
+    transform: rotate(-12deg);
+    padding: 15px;
+    background-color: rgb(255, 250, 239);
+}
+
+.pic-enigme-2 {
+    width: 35%;
+    margin-top: 25px;
+    margin-left: 20px;
+    float: left;
+}
+
+.countdown {
+    font-family: "Verdana", sans-serif;
+    margin: 45px;
+    color: white;
+    top: 0;
+    font-size: 36pt;
+    position: absolute;
+    z-index: 9995;
+    font-weight: bold;
+}
+
+.fancybox-bg {
+    background: #0a0a0a !important;
+}

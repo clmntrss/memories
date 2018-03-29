@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
+aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink"
+width="128" height="128">
+  <title>Search Find</title>
+  <desc>A solid styled icon from Orion Icon Library.</desc>
+  <path data-name="layer1"
+  d="M58.121 52.879L42.545 37.302l-.29.308a20.009 20.009 0 1 0-3.777 3.995l-.057.06L53.88 57.12a3 3 0 0 0 4.242-4.242zM26 41a15 15 0 1 1 15-15 15.017 15.017 0 0 1-15 15z"
+  fill="#7b7b7b"></path>
+</svg>

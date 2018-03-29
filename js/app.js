@@ -14,4 +14,17 @@ $('document').ready(function () {
         if (secondsLeft === 0) minutesLeft--;
         timeLeft--;
     }, 1000);
-});
+
+    $( "#clickable" ).click(function() {
+        $('#home').fadeOut(1000, function(){
+            $('#game').fadeIn(1500);
+            $('body').css({
+                background : 'url("images/scene.png")'
+            });
+            $('#game').css("display","inherit");
+        });
+
+    });
+
+})
+;
