@@ -25,7 +25,7 @@ $('document').ready(function () {
             $(this).prop('disabled', true);
             $('#input-reponse-1').prop('disabled', true);
             $('.enigme-btn-1').css({
-                background : 'radial-gradient(#00ff0088, rgba(255, 255, 255, 0) 65%)'
+                background: 'radial-gradient(#00ff0088, rgba(255, 255, 255, 0) 65%)'
             });
 
         } else {
