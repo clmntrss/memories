@@ -2,7 +2,7 @@ body {
     background: url("../images/scene.png");
 }
 
-.enigme-btn {
+.enigme-btn, .digicode-btn {
     position: absolute;
     width: 150px;
     height: 150px;
@@ -13,7 +13,7 @@ body {
     outline: none !important;
 }
 
-.enigme-btn:hover {
+.enigme-btn:hover, .digicode-btn:hover {
     background: radial-gradient(#ff300088, rgba(255, 255, 255, 0) 65%);
 }
 
@@ -45,6 +45,19 @@ body {
 .enigme-btn-6 {
     left: 50%;
     top: 50%;
+}
+
+.digicode-btn {
+    left: 29%;
+    top: 30%;
+}
+
+.digicode-content {
+    -webkit-background-size: contain !important;
+    background-size: contain !important;
+    background: rgba(255, 255, 255, 0) url("../images/digicode.png") no-repeat !important;
+    width: 982px;
+    height: 681px;
 }
 
 .enigme {
