@@ -70,7 +70,7 @@ body {
 .digicode-content {
     -webkit-background-size: contain !important;
     background-size: contain !important;
-    background: rgba(255, 255, 255, 0) url("../images/digicode.png") no-repeat !important;
+    background: rgba(255, 255, 255, 0) url("../../../images/digicode.png") no-repeat !important;
     width: 982px;
     height: 681px;
 }
@@ -141,8 +141,9 @@ label {
 
 .countdown {
     font-family: "Verdana", sans-serif;
-    margin: 45px;
-    color: white;
+    margin: auto;
+    width: 100%;
+    color: blue;
     font-size: 36pt;
     position: absolute;
     z-index: 9995;
