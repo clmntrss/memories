@@ -8,12 +8,33 @@
 
 body {
     background-color: #0a0a0a;
-    transition : all 1000ms ease-in-out;
+    transition: all 1000ms ease-in-out;
     scroll-behavior: smooth;
 }
 
 h2 {
     margin: 0;
+}
+
+/* fonts */
+@font-face {
+    font-family: digital-7;
+    src: url('../fonts/digital_7/digital-7.ttf');
+}
+
+@font-face {
+    font-family: digital-7-italic;
+    src: url('../fonts/digital_7/digital-7-italic.ttf');
+}
+
+@font-face {
+    font-family: digital-7-mono;
+    src: url('../fonts/digital_7/digital-7-mono.ttf');
+}
+
+@font-face {
+    font-family: digital-7-mono-italic;
+    src: url('../fonts/digital_7/digital-7-mono-italic.ttf');
 }
 
 /* Style HomePage */
@@ -25,7 +46,7 @@ h2 {
     height: 100vh;
     background-color: #303030;
     justify-content: center;
-    align-items : center;
+    align-items: center;
     flex-direction: column;
 }
 
@@ -40,6 +61,11 @@ h2 {
     color: #665c47;
     font-size: 50pt;
     font-weight: 500;
+    margin-top: 30px;
+}
+
+.discover {
+    margin-top: 30px;
 }
 
 .main-home p {
@@ -50,7 +76,7 @@ h2 {
 
 .main-rule {
     height: 100vh;
-    background-color: #303030;
+    background: linear-gradient(#252525, #161616);
 }
 
 .main-rule h2 {
@@ -88,6 +114,7 @@ h2 {
     font-size: 20pt;
     color: #ffffff;
 }
+
 .centered-rule {
     text-align: center;
 }
@@ -134,16 +161,14 @@ h2 {
     width: 0.45em;
 }
 
-
 .chevron.bottom:before {
     top: 0;
     transform: rotate(135deg);
 }
 
-
 /* Style Jeu */
 
-.enigme-btn {
+.enigme-btn, .digicode-btn {
     position: absolute;
     width: 150px;
     height: 150px;
@@ -154,7 +179,7 @@ h2 {
     outline: none !important;
 }
 
-.enigme-btn:hover {
+.enigme-btn:hover, .digicode-btn:hover {
     background: radial-gradient(rgba(255, 3, 0, 0.53), rgba(255, 255, 255, 0) 65%);
 }
 
@@ -218,6 +243,19 @@ h2 {
     text-align: justify;
 }
 
+.digicode-btn {
+    left: 29%;
+    top: 30%;
+}
+
+.digicode-content {
+    -webkit-background-size: contain !important;
+    background-size: contain !important;
+    background: rgba(255, 255, 255, 0) url(../images/digicode.png) no-repeat !important;
+    width: 982px;
+    height: 681px;
+}
+
 .form-reponse {
     text-align: center;
 }
@@ -235,12 +273,12 @@ h2 {
     border: 2px solid #bca186 !important;
     outline: none !important;
     background-color: rgba(0, 0, 0, 0) !important;
-    transition : all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 .answer:hover {
     color: #000;
-    transition : all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 label {
@@ -270,16 +308,66 @@ label {
 }
 
 .countdown {
-    font-family: "Verdana", sans-serif;
-    margin: 45px;
+    font-family: "digital-7-mono-italic", sans-serif;
     color: white;
-    top: 0;
-    font-size: 36pt;
+    top: 25px;
+    width: 100%;
+    text-align: center;
+    font-size: 54pt;
     position: absolute;
-    z-index: 9995;
-    font-weight: bold;
+    z-index: 999999;
+    letter-spacing: 5px;
+}
+
+.gameover-overlay {
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    filter: opacity(1);
+    z-index: 999998;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    bottom: 0;
+    color: #ef0000;
+    text-transform: uppercase;
+    display: none;
+    text-align: center;
+}
+
+.gameover-overlay h1 {
+    font-size: 75pt;
+}
+
+.gameover-overlay p {
+    margin-top: 15px;
+    font-size: 28pt;
+}
+
+.gameover-overlay a {
+    font-size: 15pt;
+    color: white;
+    text-decoration: none;
+}
+
+.gameover-overlay a:hover {
+    color: #c7c7c7;
 }
 
 .fancybox-bg {
     background: #0a0a0a !important;
+}
+
+.fancybox-close-small:after {
+    border-radius: 30px !important;
+    background-color: #00000000 !important;
+    color: #ef0000 !important;
+    font-weight: 800 !important;
+    font-size: 35pt !important;
+}
+
+.fancybox-close-small:hover:after {
+    color: #8f0000 !important;
 }
