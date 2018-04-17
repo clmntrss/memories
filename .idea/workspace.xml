@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fb1573fc-860a-4fc5-b00c-86ae65719302" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/bails Leo/jeu code/css/style.css" afterPath="$PROJECT_DIR$/bails Leo/jeu code/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/bails Leo/jeu code/images/digicode.png" afterPath="$PROJECT_DIR$/images/digicode.png" />
-      <change beforePath="$PROJECT_DIR$/bails Leo/jeu code/js/app.js" afterPath="$PROJECT_DIR$/bails Leo/jeu code/js/app.js" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/images/scene.png" afterPath="$PROJECT_DIR$/images/scene.png" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
     </list>
@@ -23,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1782">
-              <caret line="81" column="17" lean-forward="false" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
+            <state relative-caret-position="551">
+              <caret line="155" column="14" lean-forward="true" selection-start-line="155" selection-start-column="14" selection-end-line="155" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -43,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+            <state relative-caret-position="528">
+              <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -94,9 +89,9 @@
         <option value="$PROJECT_DIR$/images/escape.svg" />
         <option value="$PROJECT_DIR$/bails Leo/jeu code/js/app.js" />
         <option value="$PROJECT_DIR$/bails Leo/jeu code/css/style.css" />
-        <option value="$PROJECT_DIR$/js/app.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/app.js" />
       </list>
     </option>
   </component>
@@ -245,7 +240,7 @@
       <workItem from="1522342974096" duration="149000" />
       <workItem from="1522427892537" duration="101000" />
       <workItem from="1523952762416" duration="7886000" />
-      <workItem from="1523966087019" duration="3084000" />
+      <workItem from="1523966087019" duration="4696000" />
     </task>
     <task id="LOCAL-00001" summary="render">
       <created>1521832589075</created>
@@ -352,11 +347,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523961230332</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="ajout du gameover + un peu de bails divers">
+      <created>1523969199671</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1523969199671</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38483000" />
+    <option name="totallyTimeSpent" value="40095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -417,7 +419,8 @@
     <MESSAGE value="ISSVM LA CHANKLAE RISITARUM" />
     <MESSAGE value="gitignore" />
     <MESSAGE value="ajout de bails multiples" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout de bails multiples" />
+    <MESSAGE value="ajout du gameover + un peu de bails divers" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout du gameover + un peu de bails divers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -694,6 +697,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -718,14 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
@@ -736,8 +732,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1782">
-          <caret line="81" column="17" lean-forward="false" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
+        <state relative-caret-position="551">
+          <caret line="155" column="14" lean-forward="true" selection-start-line="155" selection-start-column="14" selection-end-line="155" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
           <folding />
         </state>
       </provider>

@@ -19,9 +19,10 @@ $('document').ready(function () {
                 $('#gameover-overlay').css({
                     display: 'flex'
                 });
+                $.fancybox.close();
             }
         }
-    }, 1);
+    }, 1000);
 
     $("#clickable").click(function () {
         $('#home').fadeOut(1000, function () {
@@ -47,6 +48,7 @@ $('document').ready(function () {
             $('.enigme-btn-1').css({
                 background: 'radial-gradient(#00ff0088, rgba(255, 255, 255, 0) 65%)'
             });
+            $.fancybox.close();
 
         } else {
             $('#info-reponse-1').css('color', 'red');
