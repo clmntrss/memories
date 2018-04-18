@@ -75,7 +75,9 @@
 </div>
 
 <div class="jeu" id="game" style="display: none">
-    <div id="countdown" class="countdown disable"></div>
+    <div id="countdown" class="countdown disable">
+        <div id="countdown-inner" class="countdown-inner"></div>
+    </div>
     <div id="gameover-overlay" class="gameover-overlay">
         <h1>GAME OVER</h1>
         <p>Temps écoulé</p>
@@ -126,7 +128,7 @@
     <div style="display: none;" id="enigme-4" class="enigme">
         <div class="enigme-content enigme-content-1">
             <h2>[DEV Énigme 4]</h2>
-            <p>Énigme à venir...</p>
+            <p>Cette énigme n'est pas encore disponible!</p>
         </div>
     </div>
 
@@ -135,7 +137,7 @@
     <div style="display: none;" id="enigme-5" class="enigme">
         <div class="enigme-content enigme-content-1">
             <h2>[DEV Énigme 5]</h2>
-            <p>Énigme à venir...</p>
+            <p>Cette énigme n'est pas encore disponible!</p>
         </div>
     </div>
 
@@ -144,7 +146,7 @@
     <div style="display: none;" id="enigme-6" class="enigme">
         <div class="enigme-content enigme-content-1">
             <h2>[DEV Énigme 6]</h2>
-            <p>Énigme à venir...</p>
+            <p>Cette énigme n'est pas encore disponible!</p>
         </div>
     </div>
     <!--Digicode-->
@@ -152,13 +154,24 @@
     <div style="display: none;" id="digicode-content" class="digicode-content">
         <h2>[DEV Digicode]</h2>
         <div id="digits" class="digits">
-            <div id="digit-enigme-1" class="single-digit"></div>
-            <div id="digit-enigme-2" class="single-digit"></div>
-            <div id="digit-enigme-3" class="single-digit"></div>
-            <div id="digit-enigme-4" class="single-digit"></div>
-            <div id="digit-enigme-5" class="single-digit"></div>
-            <div id="digit-enigme-6" class="single-digit"></div>
+            <div class="row">
+                <div id="digit-enigme-1" class="single-digit">
+                </div>
+                <div id="digit-enigme-2" class="single-digit">
+                </div>
+                <div id="digit-enigme-3" class="single-digit">
+                </div>
+            </div>
+            <div class="row">
+                <div id="digit-enigme-4" class="single-digit">
+                </div>
+                <div id="digit-enigme-5" class="single-digit">
+                </div>
+                <div id="digit-enigme-6" class="single-digit">
+                </div>
+            </div>
         </div>
+        <p><i>Je dois retrouver la mémoire pour sortir d'ici...</i></p>
     </div>
 </div>
 </body>

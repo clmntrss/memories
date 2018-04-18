@@ -8,7 +8,7 @@ $('document').ready(function () {
     setInterval(function () {
         if (gameOn) {
             let secondsLeft = timeLeft % 60;
-            $('#countdown').html(("0" + Math.floor(minutesLeft)).slice(-2) + ":" + ("0" + Math.floor(secondsLeft)).slice(-2));
+            $('#countdown-inner').html(("0" + Math.floor(minutesLeft)).slice(-2) + ":" + ("0" + Math.floor(secondsLeft)).slice(-2));
             if (timeLeft <= 300) {
                 $('#countdown').css('color', '#ef0000');
             }
@@ -49,7 +49,7 @@ $('document').ready(function () {
                 background: 'radial-gradient(#00ff0088, rgba(255, 255, 255, 0) 65%)'
             });
             $.fancybox.close();
-            bonneReponse('enigme-1');
+            bonneReponse('enigme-1', 9);
         } else {
             $('#info-reponse-1').css('color', 'red');
             $('#info-reponse-1').html('mauvaise réponse');
@@ -57,9 +57,13 @@ $('document').ready(function () {
     });
 });
 
-function bonneReponse(enigme) {
+function bonneReponse(enigme, number) {
     selectedEnigme = 'digit-' + enigme;
-    // $('#'+selectedEnigme).html('<img src="images/' + selectedEnigme + '.jpg">');
-    $('#'+selectedEnigme).html('<img src="http://via.placeholder.com/1920x1080/8c8c8c/ffffff?text='+selectedEnigme+'">');
-    alert(enigme);
+    $('#' + selectedEnigme).css({
+        backgroundImage: "url(images/" + selectedEnigme + ".png)",
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center center',
+        backgroundSize: 'cover',
+    });
+    $('#' + selectedEnigme).html(number);
 }
