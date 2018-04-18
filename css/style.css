@@ -251,8 +251,18 @@ h2 {
 .digicode-content {
     -webkit-background-size: contain !important;
     background-size: contain !important;
-    background: rgba(255, 255, 255, 0) url(../images/digicode.png) no-repeat !important;
+    background: rgba(89, 90, 86, 0.5) url(../images/digicode.png) no-repeat !important;
     width: 900px;
+}
+
+.digicode-content p {
+    color: white;
+    font-size: 15pt;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: normal;
+    background-color: black;
+    padding: 10px;
 }
 
 .form-reponse {
@@ -406,14 +416,4 @@ label {
     justify-content: center;
     align-items: center;
 
-}
-
-.digicode-content p {
-    color: white;
-    font-size: 15pt;
-    text-align: center;
-    margin-top: 100px;
-    font-weight: normal;
-    background-color: black;
-    padding: 10px;
 }
