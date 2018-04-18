@@ -1,13 +1,13 @@
 $('document').ready(function () {
 
-    var minutes = 30;
-    var seconds = 0;
-    var timeLeft = minutes * 60 + seconds;
-    var minutesLeft = minutes;
-    var gameOn = false;
+    minutes = 30;
+    let seconds = 0;
+    let timeLeft = minutes * 60 + seconds;
+    let minutesLeft = minutes;
+    let gameOn = false;
     setInterval(function () {
         if (gameOn) {
-            var secondsLeft = timeLeft % 60;
+            let secondsLeft = timeLeft % 60;
             $('#countdown').html(("0" + Math.floor(minutesLeft)).slice(-2) + ":" + ("0" + Math.floor(secondsLeft)).slice(-2));
             if (timeLeft <= 300) {
                 $('#countdown').css('color', '#ef0000');
@@ -49,11 +49,17 @@ $('document').ready(function () {
                 background: 'radial-gradient(#00ff0088, rgba(255, 255, 255, 0) 65%)'
             });
             $.fancybox.close();
-
+            bonneReponse('enigme-1');
         } else {
             $('#info-reponse-1').css('color', 'red');
             $('#info-reponse-1').html('mauvaise réponse');
         }
-
     });
 });
+
+function bonneReponse(enigme) {
+    selectedEnigme = 'digit-' + enigme;
+    // $('#'+selectedEnigme).html('<img src="images/' + selectedEnigme + '.jpg">');
+    $('#'+selectedEnigme).html('<img src="http://via.placeholder.com/1920x1080/8c8c8c/ffffff?text='+selectedEnigme+'">');
+    alert(enigme);
+}
