@@ -391,3 +391,16 @@ label {
 .fancybox-close-small:hover:after {
     color: #8f0000 !important;
 }
+
+.digits {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 10px;
+    margin-left: 40%;
+    height: 300px;
+    width: 500px;
+}
+
+.single-digit {
+    background-color: black;
+}
