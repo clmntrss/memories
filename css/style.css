@@ -271,9 +271,18 @@ h2 {
 .digicode-content {
     -webkit-background-size: contain !important;
     background-size: contain !important;
-    background: rgba(255, 255, 255, 0) url(../images/digicode.png) no-repeat !important;
-    width: 982px;
-    height: 681px;
+    background: rgba(89, 90, 86, 0.5) url(../images/digicode.png) no-repeat !important;
+    width: 900px;
+}
+
+.digicode-content p {
+    color: white;
+    font-size: 15pt;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: normal;
+    background-color: black;
+    padding: 10px;
 }
 
 .form-reponse {
@@ -328,15 +337,23 @@ label {
 }
 
 .countdown {
-    font-family: "digital-7-mono-italic", sans-serif;
     color: white;
-    top: 25px;
+    top: 15px;
     width: 100%;
     text-align: center;
-    font-size: 54pt;
     position: absolute;
     z-index: 999999;
     letter-spacing: 5px;
+}
+
+.countdown-inner {
+    background-color: #101010;
+    border: solid 5px #595a56;
+    font-family: "digital-7-mono", sans-serif;
+    width: 230px;
+    margin: auto;
+    text-align: center;
+    font-size: 48pt;
 }
 
 .gameover-overlay {
@@ -367,13 +384,20 @@ label {
 }
 
 .gameover-overlay a {
+    margin-top: 20px;
     font-size: 15pt;
     color: white;
     text-decoration: none;
+    background-color: #2d2f2d;
+    padding: 5px 15px;
+    border-radius: 50px;
+    border: 1px solid white;
 }
 
 .gameover-overlay a:hover {
     color: #c7c7c7;
+    background-color: #191b19;
+    border-color: #c7c7c7;
 }
 
 .fancybox-bg {
@@ -393,14 +417,23 @@ label {
 }
 
 .digits {
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    grid-gap: 10px;
     margin-left: 40%;
-    height: 300px;
-    width: 500px;
+}
+
+.row {
+    display: flex;
 }
 
 .single-digit {
+    display: flex;
     background-color: black;
+    width: 300px;
+    height: 110px;
+    margin: 15px;
+    color: navajowhite;
+    font-size: 52pt;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+
 }

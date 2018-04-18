@@ -76,7 +76,9 @@
 </div>
 
 <div class="jeu" id="game" style="display: none">
-    <div id="countdown" class="countdown disable"></div>
+    <div id="countdown" class="countdown disable">
+        <div id="countdown-inner" class="countdown-inner"></div>
+    </div>
     <div id="gameover-overlay" class="gameover-overlay">
         <h1>GAME OVER</h1>
         <p>Temps écoulé</p>
@@ -86,7 +88,6 @@
     <a id="obj-1" class="enigme-btn enigme-btn-1" data-fancybox data-src="#enigme-1" href="javascript:"></a>
     <div style="display: none;" id="enigme-1" class="enigme">
         <div class="enigme-content enigme-content-1">
-            <h2>[DEV Énigme 1]</h2>
             <p class="disable"><b>« Quand l'ainé avait 18 ans, son petit frère en avait le tiers. Aujourd'hui, l'ainé
                 est considéré comme
                 majeur
@@ -108,8 +109,7 @@
             <img src="images/enigme .jpg" class="pic-enigme-2 pic-enigme">
         </div>
         <div class="enigme-content enigme-content-1">
-            <h2>[DEV Énigme 2]</h2>
-            <p>Texte de l'énigme.</p>
+            <p>Texte de l'énigme 2.</p>
         </div>
     </div>
 
@@ -117,8 +117,7 @@
     <a id="obj-3" class="enigme-btn enigme-btn-3" data-fancybox data-src="#enigme-3" href="javascript:"></a>
     <div style="display: none;" id="enigme-3" class="enigme">
         <div class="enigme-content enigme-content-1">
-            <h2>[DEV Énigme 3]</h2>
-            <p>Texte de l'énigme.</p>
+            <p>Texte de l'énigme 3.</p>
         </div>
     </div>
 
@@ -126,8 +125,7 @@
     <a id="obj-4" class="enigme-disabled enigme-btn-4" data-fancybox data-src="#enigme-4" href="javascript:"></a>
     <div style="display: none;" id="enigme-4" class="enigme">
         <div class="enigme-content enigme-content-1">
-            <h2>[DEV Énigme 4]</h2>
-            <p>Énigme à venir...</p>
+            <p>Cette énigme n'est pas encore disponible!</p>
         </div>
     </div>
 
@@ -135,8 +133,7 @@
     <a id="obj-5" class="enigme-disabled enigme-btn-5" data-fancybox data-src="#enigme-5" href="javascript:"></a>
     <div style="display: none;" id="enigme-5" class="enigme">
         <div class="enigme-content enigme-content-1">
-            <h2>[DEV Énigme 5]</h2>
-            <p>Énigme à venir...</p>
+            <p>Cette énigme n'est pas encore disponible!</p>
         </div>
     </div>
 
@@ -144,22 +141,31 @@
     <a id="obj-6" class="enigme-disabled enigme-btn-6" data-fancybox data-src="#enigme-6" href="javascript:"></a>
     <div style="display: none;" id="enigme-6" class="enigme">
         <div class="enigme-content enigme-content-1">
-            <h2>[DEV Énigme 6]</h2>
-            <p>Énigme à venir...</p>
+            <p>Cette énigme n'est pas encore disponible!</p>
         </div>
     </div>
     <!--Digicode-->
     <a id="digicode-btn" class="digicode-btn" data-fancybox data-src="#digicode-content" href="javascript:"></a>
     <div style="display: none;" id="digicode-content" class="digicode-content">
-        <h2>[DEV Digicode]</h2>
         <div id="digits" class="digits">
-            <div id="digit-enigme-1" class="single-digit"></div>
-            <div id="digit-enigme-2" class="single-digit"></div>
-            <div id="digit-enigme-3" class="single-digit"></div>
-            <div id="digit-enigme-4" class="single-digit"></div>
-            <div id="digit-enigme-5" class="single-digit"></div>
-            <div id="digit-enigme-6" class="single-digit"></div>
+            <div class="row">
+                <div id="digit-enigme-1" class="single-digit">
+                </div>
+                <div id="digit-enigme-2" class="single-digit">
+                </div>
+                <div id="digit-enigme-3" class="single-digit">
+                </div>
+            </div>
+            <div class="row">
+                <div id="digit-enigme-4" class="single-digit">
+                </div>
+                <div id="digit-enigme-5" class="single-digit">
+                </div>
+                <div id="digit-enigme-6" class="single-digit">
+                </div>
+            </div>
         </div>
+        <p><i>Je dois retrouver la mémoire et remettre mes souvenirs en ordre pour sortir d'ici...</i></p>
     </div>
 </div>
 </body>
