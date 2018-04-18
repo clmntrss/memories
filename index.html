@@ -5,12 +5,13 @@
     <title>Memories</title>
     <link href="bootstrap.min.css" rel="stylesheet"/>
     <link href="css/style.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
     <link href="css/jquery.fancybox.min.css" rel="stylesheet"/>
     <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
     <script type="text/javascript" src="js/jquery.onepage-scroll.min.js"></script>
     <link href='css/onepage-scroll.css' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <script>
         $(document).ready(function () {
             $(".main").onepage_scroll({
@@ -34,13 +35,13 @@
                 <h3 class="main-subtitle">
                     Un escape game dystopique
                 </h3>
-                <p class="discover">
-                    Découvrir Memories
-                </p>
+                <a href="#main-rule" class="btn-nextpage">
+                    <img class="arrow-down" src="images/arrow-down.svg" alt="bouton page suivante"/>
+                </a>
             </div>
         </section>
         <section class="page2">
-            <div class="main-rule">
+            <div class="main-rule" id="main-rule">
                 <h2 class="main-title-rule">
                     Vous vous réveillez dans un batîment délabré. La seule issue est verouillée par un digicode.
                     Retrouvez la
