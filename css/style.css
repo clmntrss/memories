@@ -187,7 +187,15 @@ h2 {
 }
 
 /* Style Jeu */
-
+.malus{
+    color: #ef0000;
+    position : fixed;
+    top : 15px;
+    left : 15px;
+    font-size: 18pt;
+    display: none;
+    z-index: 999999;
+}
 .enigme-btn, .digicode-btn {
     position: absolute;
     width: 150px;
